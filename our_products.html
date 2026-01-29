@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Store Mart</title>
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/our_products.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a>
+                </div>
+                <input type="checkbox" id="ham-check">
+                <label for="ham-check" class="open-menu"><span></span></label>
+                <ul class="nav-bar">
+                    <span class="menu">
+                        <label for="ham-check" class="close-menu"></label>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a class="active" href="our_products.html">Our Products</a></li>
+                        <li><a href="loyalty.html">Loyalty</a></li>
+                        <div class="nav-icons">
+                            <a href="login.html" class="icon-link" title="Login">
+                                <span class="icon-login"></span>
+                            </a>
+                            <a href="register.html" class="icon-link" title="Register">
+                                <span class="icon-register">
+                                    <span class="plus"></span>
+                                </span>
+                            </a>
+                            <a href="cart.html" class="icon-link" title="Cart">
+                                <span class="icon-cart">
+                                    <span class="wheel-left"></span>
+                                    <span class="wheel-right"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </span>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="products-hero">
+            <div class="container">
+                <h1 class="hero-title">Discover Our Premium Products</h1>
+                <p class="hero-subtitle">Quality products carefully selected to meet all your needs</p>
+            </div>
+        </section>
+
+        <!-- Search & Filter Section -->
+        <section class="products-search">
+            <div class="container">
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" placeholder="Search products...">
+                    <span class="search-icon">ðŸ”</span>
+                </div>
+                
+                <div class="filter-tags">
+                    <a href="#all" class="filter-tag active">All Products</a>
+                    <a href="#dairy" class="filter-tag">Dairy</a>
+                    <a href="#vegetables" class="filter-tag">Vegetables</a>
+                    <a href="#cosmetics" class="filter-tag">Cosmetics</a>
+                    <a href="#fruits" class="filter-tag">Fruits</a>
+                    <a href="#beverages" class="filter-tag">Beverages</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-section">
+            <div class="container">
+                <div class="products-grid">
+                    
+                    <!-- Product Card 1: Dairy -->
+                    <div class="product-card">
+                        <div class="card-badge">Popular</div>
+                        <div class="card-image dairy-bg">
+                            <div class="icon-placeholder">ðŸ¥›</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Dairy Products</h3>
+                            <p class="card-description">Premium milk, cheese, yogurt, and more</p>
+                            <div class="card-footer">
+                                <a href="dairy_products.html" class="btn btn-primary btn-small">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2: Vegetables -->
+                    <div class="product-card">
+                        <div class="card-badge new">Fresh</div>
+                        <div class="card-image veg-bg">
+                            <div class="icon-placeholder">ðŸ¥¬</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Fresh Vegetables</h3>
+                            <p class="card-description">Organic, farm-fresh vegetables daily</p>
+                            <div class="card-footer">
+                                <a href="vegetables.html" class="btn btn-primary btn-small">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3: Cosmetics -->
+                    <div class="product-card">
+                        <div class="card-image cosmetic-bg">
+                            <div class="icon-placeholder">ðŸ’„</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Beauty & Cosmetics</h3>
+                            <p class="card-description">Quality cosmetics for all your needs</p>
+                            <div class="card-footer">
+                                <a href="cosmetics.html" class="btn btn-primary btn-small">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4: Fruits -->
+                    <div class="product-card">
+                        <div class="card-badge">Seasonal</div>
+                        <div class="card-image fruit-bg">
+                            <div class="icon-placeholder">ðŸŽ</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Fresh Fruits</h3>
+                            <p class="card-description">Sweet and juicy seasonal fruits</p>
+                            <div class="card-footer">
+                                <a href="product-fruits.html" class="btn btn-primary btn-small">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5: Meat -->
+                    <div class="product-card">
+                        <div class="card-image meat-bg">
+                            <div class="icon-placeholder">ðŸ¥©</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Premium Meat</h3>
+                            <p class="card-description">Fresh cuts from trusted suppliers</p>
+                            <div class="card-footer">
+                                <a href="product-meat.html" class="btn btn-primary btn-small">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 6: Beverages -->
+                    <div class="product-card">
+                        <div class="card-badge">Trending</div>
+                        <div class="card-image bev-bg">
+                            <div class="icon-placeholder">ðŸ¥¤</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Beverages</h3>
+                            <p class="card-description">Refreshing drinks for every occasion</p>
+                            <div class="card-footer">
+                                <a href="product-beverages.html" class="btn btn-primary btn-small">View Products</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Section -->
+        <section class="featured-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Store Mart?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">âœ“</div>
+                        <h3>Quality Guaranteed</h3>
+                        <p>All products meet our strict quality standards</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">ðŸšš</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick and reliable shipping to your doorstep</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">ðŸ’¬</div>
+                        <h3>24/7 Support</h3>
+                        <p>Our team is always here to help you</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">ðŸ’°</div>
+                        <h3>Best Prices</h3>
+                        <p>Competitive pricing on all our products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+

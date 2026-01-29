@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruits - Store Mart</title>
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/product-page.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a>
+                </div>
+                <ul class="nav-bar">
+                    <input type="checkbox" id="ham-check">
+                    <span class="menu">
+                        <label for="ham-check" class="close-menu">âœ•</label>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="our_products.html">Our Products</a></li>
+                        <li><a href="loyalty.html">Loyalty</a></li>
+                        <div class="nav-icons">
+                            <a href="login.html" class="icon-link" title="Login">
+                                <span class="icon-login"></span>
+                            </a>
+                            <a href="register.html" class="icon-link" title="Register">
+                                <span class="icon-register">
+                                    <span class="plus"></span>
+                                </span>
+                            </a>
+                            <a href="cart.html" class="icon-link" title="Cart">
+                                <span class="icon-cart">
+                                    <span class="wheel-left"></span>
+                                    <span class="wheel-right"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </span>
+                    <label for="ham-check" class="open-menu">â˜°</label>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="our_products.html">Products</a> / 
+                <span>Fresh Fruits</span>
+            </div>
+
+            <section class="category-hero">
+                <h1>Fresh Fruits</h1>
+                <p>Sweet and juicy seasonal fruits hand-picked for quality</p>
+            </section>
+
+            <div class="products-container">
+                
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);">
+                            <span class="product-emoji">ðŸŽ</span>
+                        </div>
+                        <span class="product-tag">Fresh</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Apples</h3>
+                        <p class="product-desc">Crisp and sweet</p>
+                        <p class="product-price">RS 120.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="apple-qty" id="apple-0" value="0" checked>
+                                <input type="radio" name="apple-qty" id="apple-1" value="1">
+                                <input type="radio" name="apple-qty" id="apple-2" value="2">
+                                <input type="radio" name="apple-qty" id="apple-3" value="3">
+                                <input type="radio" name="apple-qty" id="apple-4" value="4">
+                                <input type="radio" name="apple-qty" id="apple-5" value="5">
+                                
+                                <label for="apple-0" class="qty-btn minus" data-target="apple">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="apple-0">0</span>
+                                    <span class="qty-num" data-for="apple-1">1</span>
+                                    <span class="qty-num" data-for="apple-2">2</span>
+                                    <span class="qty-num" data-for="apple-3">3</span>
+                                    <span class="qty-num" data-for="apple-4">4</span>
+                                    <span class="qty-num" data-for="apple-5">5</span>
+                                </div>
+                                <label for="apple-5" class="qty-btn plus" data-target="apple">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+                            <span class="product-emoji">ðŸŠ</span>
+                        </div>
+                        <span class="product-tag new">Seasonal</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Orange</h3>
+                        <p class="product-desc">Juicy and vitamin-rich</p>
+                        <p class="product-price">RS 150.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="orange-qty" id="orange-0" value="0" checked>
+                                <input type="radio" name="orange-qty" id="orange-1" value="1">
+                                <input type="radio" name="orange-qty" id="orange-2" value="2">
+                                <input type="radio" name="orange-qty" id="orange-3" value="3">
+                                <input type="radio" name="orange-qty" id="orange-4" value="4">
+                                <input type="radio" name="orange-qty" id="orange-5" value="5">
+                                
+                                <label for="orange-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="orange-0">0</span>
+                                    <span class="qty-num" data-for="orange-1">1</span>
+                                    <span class="qty-num" data-for="orange-2">2</span>
+                                    <span class="qty-num" data-for="orange-3">3</span>
+                                    <span class="qty-num" data-for="orange-4">4</span>
+                                    <span class="qty-num" data-for="orange-5">5</span>
+                                </div>
+                                <label for="orange-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);">
+                            <span class="product-emoji">ðŸŒ</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Bananas</h3>
+                        <p class="product-desc">Rich in potassium</p>
+                        <p class="product-price">RS 80.00 <span class="price-unit">/ dozen</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="banana-qty" id="banana-0" value="0" checked>
+                                <input type="radio" name="banana-qty" id="banana-1" value="1">
+                                <input type="radio" name="banana-qty" id="banana-2" value="2">
+                                <input type="radio" name="banana-qty" id="banana-3" value="3">
+                                <input type="radio" name="banana-qty" id="banana-4" value="4">
+                                <input type="radio" name="banana-qty" id="banana-5" value="5">
+                                
+                                <label for="banana-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="banana-0">0</span>
+                                    <span class="qty-num" data-for="banana-1">1</span>
+                                    <span class="qty-num" data-for="banana-2">2</span>
+                                    <span class="qty-num" data-for="banana-3">3</span>
+                                    <span class="qty-num" data-for="banana-4">4</span>
+                                    <span class="qty-num" data-for="banana-5">5</span>
+                                </div>
+                                <label for="banana-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
+                            <span class="product-emoji">ðŸ‡</span>
+                        </div>
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Grapes</h3>
+                        <p class="product-desc">Seedless premium quality</p>
+                        <p class="product-price">RS 200.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="grape-qty" id="grape-0" value="0" checked>
+                                <input type="radio" name="grape-qty" id="grape-1" value="1">
+                                <input type="radio" name="grape-qty" id="grape-2" value="2">
+                                <input type="radio" name="grape-qty" id="grape-3" value="3">
+                                <input type="radio" name="grape-qty" id="grape-4" value="4">
+                                <input type="radio" name="grape-qty" id="grape-5" value="5">
+                                
+                                <label for="grape-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="grape-0">0</span>
+                                    <span class="qty-num" data-for="grape-1">1</span>
+                                    <span class="qty-num" data-for="grape-2">2</span>
+                                    <span class="qty-num" data-for="grape-3">3</span>
+                                    <span class="qty-num" data-for="grape-4">4</span>
+                                    <span class="qty-num" data-for="grape-5">5</span>
+                                </div>
+                                <label for="grape-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);">
+                            <span class="product-emoji">ðŸ“</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Strawberries</h3>
+                        <p class="product-desc">Fresh and sweet</p>
+                        <p class="product-price">RS 180.00 <span class="price-unit">/ 250g</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="berry-qty" id="berry-0" value="0" checked>
+                                <input type="radio" name="berry-qty" id="berry-1" value="1">
+                                <input type="radio" name="berry-qty" id="berry-2" value="2">
+                                <input type="radio" name="berry-qty" id="berry-3" value="3">
+                                <input type="radio" name="berry-qty" id="berry-4" value="4">
+                                <input type="radio" name="berry-qty" id="berry-5" value="5">
+                                
+                                <label for="berry-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="berry-0">0</span>
+                                    <span class="qty-num" data-for="berry-1">1</span>
+                                    <span class="qty-num" data-for="berry-2">2</span>
+                                    <span class="qty-num" data-for="berry-3">3</span>
+                                    <span class="qty-num" data-for="berry-4">4</span>
+                                    <span class="qty-num" data-for="berry-5">5</span>
+                                </div>
+                                <label for="berry-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);">
+                            <span class="product-emoji">ðŸ¥</span>
+                        </div>
+                        <span class="product-tag new">Imported</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Kiwi</h3>
+                        <p class="product-desc">Tangy and nutritious</p>
+                        <p class="product-price">RS 220.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="kiwi-qty" id="kiwi-0" value="0" checked>
+                                <input type="radio" name="kiwi-qty" id="kiwi-1" value="1">
+                                <input type="radio" name="kiwi-qty" id="kiwi-2" value="2">
+                                <input type="radio" name="kiwi-qty" id="kiwi-3" value="3">
+                                <input type="radio" name="kiwi-qty" id="kiwi-4" value="4">
+                                <input type="radio" name="kiwi-qty" id="kiwi-5" value="5">
+                                
+                                <label for="kiwi-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="kiwi-0">0</span>
+                                    <span class="qty-num" data-for="kiwi-1">1</span>
+                                    <span class="qty-num" data-for="kiwi-2">2</span>
+                                    <span class="qty-num" data-for="kiwi-3">3</span>
+                                    <span class="qty-num" data-for="kiwi-4">4</span>
+                                    <span class="qty-num" data-for="kiwi-5">5</span>
+                                </div>
+                                <label for="kiwi-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

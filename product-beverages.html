@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages - Store Mart</title>
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/product-page.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a>
+                </div>
+                <ul class="nav-bar">
+                    <input type="checkbox" id="ham-check">
+                    <span class="menu">
+                        <label for="ham-check" class="close-menu">âœ•</label>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="our_products.html">Our Products</a></li>
+                        <li><a href="loyalty.html">Loyalty</a></li>
+                        <div class="nav-icons">
+                            <a href="login.html" class="icon-link" title="Login">
+                                <span class="icon-login"></span>
+                            </a>
+                            <a href="register.html" class="icon-link" title="Register">
+                                <span class="icon-register">
+                                    <span class="plus"></span>
+                                </span>
+                            </a>
+                            <a href="cart.html" class="icon-link" title="Cart">
+                                <span class="icon-cart">
+                                    <span class="wheel-left"></span>
+                                    <span class="wheel-right"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </span>
+                    <label for="ham-check" class="open-menu">â˜°</label>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="our_products.html">Products</a> / 
+                <span>Fresh Fruits</span>
+            </div>
+
+            <section class="category-hero">
+                <h1>Beverages</h1>
+                <p>Refreshing drinks for every occasion</p>
+            </section>
+
+            <div class="products-container">
+                
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+                            <span class="product-emoji">ðŸ§ƒ</span>
+                        </div>
+                        <span class="product-tag">Fresh</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Orange Juice</h3>
+                        <p class="product-desc">100% natural juice</p>
+                        <p class="product-price">RS 280.00 <span class="price-unit">/ 1L</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="juice-qty" id="juice-0" value="0" checked>
+                                <input type="radio" name="juice-qty" id="juice-1" value="1">
+                                <input type="radio" name="juice-qty" id="juice-2" value="2">
+                                <input type="radio" name="juice-qty" id="juice-3" value="3">
+                                <input type="radio" name="juice-qty" id="juice-4" value="4">
+                                <input type="radio" name="juice-qty" id="juice-5" value="5">
+                                
+                                <label for="juice-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="juice-0">0</span>
+                                    <span class="qty-num" data-for="juice-1">1</span>
+                                    <span class="qty-num" data-for="juice-2">2</span>
+                                    <span class="qty-num" data-for="juice-3">3</span>
+                                    <span class="qty-num" data-for="juice-4">4</span>
+                                    <span class="qty-num" data-for="juice-5">5</span>
+                                </div>
+                                <label for="juice-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);">
+                            <span class="product-emoji">ðŸ¥¤</span>
+                        </div>
+                        <span class="product-tag new">Popular</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Cola</h3>
+                        <p class="product-desc">Fizzy and refreshing</p>
+                        <p class="product-price">RS 150.00 <span class="price-unit">/ 1L</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="cola-qty" id="cola-0" value="0" checked>
+                                <input type="radio" name="cola-qty" id="cola-1" value="1">
+                                <input type="radio" name="cola-qty" id="cola-2" value="2">
+                                <input type="radio" name="cola-qty" id="cola-3" value="3">
+                                <input type="radio" name="cola-qty" id="cola-4" value="4">
+                                <input type="radio" name="cola-qty" id="cola-5" value="5">
+                                
+                                <label for="cola-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="cola-0">0</span>
+                                    <span class="qty-num" data-for="cola-1">1</span>
+                                    <span class="qty-num" data-for="cola-2">2</span>
+                                    <span class="qty-num" data-for="cola-3">3</span>
+                                    <span class="qty-num" data-for="cola-4">4</span>
+                                    <span class="qty-num" data-for="cola-5">5</span>
+                                </div>
+                                <label for="cola-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);">
+                            <span class="product-emoji">ðŸ’§</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Mineral Water</h3>
+                        <p class="product-desc">Pure and natural</p>
+                        <p class="product-price">RS 80.00 <span class="price-unit">/ 1.5L</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="water-qty" id="water-0" value="0" checked>
+                                <input type="radio" name="water-qty" id="water-1" value="1">
+                                <input type="radio" name="water-qty" id="water-2" value="2">
+                                <input type="radio" name="water-qty" id="water-3" value="3">
+                                <input type="radio" name="water-qty" id="water-4" value="4">
+                                <input type="radio" name="water-qty" id="water-5" value="5">
+                                
+                                <label for="water-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="water-0">0</span>
+                                    <span class="qty-num" data-for="water-1">1</span>
+                                    <span class="qty-num" data-for="water-2">2</span>
+                                    <span class="qty-num" data-for="water-3">3</span>
+                                    <span class="qty-num" data-for="water-4">4</span>
+                                    <span class="qty-num" data-for="water-5">5</span>
+                                </div>
+                                <label for="water-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);">
+                            <span class="product-emoji">ðŸµ</span>
+                        </div>
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Green Tea</h3>
+                        <p class="product-desc">Organic and healthy</p>
+                        <p class="product-price">RS 320.00 <span class="price-unit">/ 25 bags</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="tea-qty" id="tea-0" value="0" checked>
+                                <input type="radio" name="tea-qty" id="tea-1" value="1">
+                                <input type="radio" name="tea-qty" id="tea-2" value="2">
+                                <input type="radio" name="tea-qty" id="tea-3" value="3">
+                                <input type="radio" name="tea-qty" id="tea-4" value="4">
+                                <input type="radio" name="tea-qty" id="tea-5" value="5">
+                                
+                                <label for="tea-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="tea-0">0</span>
+                                    <span class="qty-num" data-for="tea-1">1</span>
+                                    <span class="qty-num" data-for="tea-2">2</span>
+                                    <span class="qty-num" data-for="tea-3">3</span>
+                                    <span class="qty-num" data-for="tea-4">4</span>
+                                    <span class="qty-num" data-for="tea-5">5</span>
+                                </div>
+                                <label for="tea-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #efebe9 0%, #d7ccc8 100%);">
+                            <span class="product-emoji">â˜•</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Coffee</h3>
+                        <p class="product-desc">Premium arabica beans</p>
+                        <p class="product-price">RS 450.00 <span class="price-unit">/ 250g</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="coffee-qty" id="coffee-0" value="0" checked>
+                                <input type="radio" name="coffee-qty" id="coffee-1" value="1">
+                                <input type="radio" name="coffee-qty" id="coffee-2" value="2">
+                                <input type="radio" name="coffee-qty" id="coffee-3" value="3">
+                                <input type="radio" name="coffee-qty" id="coffee-4" value="4">
+                                <input type="radio" name="coffee-qty" id="coffee-5" value="5">
+                                
+                                <label for="coffee-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="coffee-0">0</span>
+                                    <span class="qty-num" data-for="coffee-1">1</span>
+                                    <span class="qty-num" data-for="coffee-2">2</span>
+                                    <span class="qty-num" data-for="coffee-3">3</span>
+                                    <span class="qty-num" data-for="coffee-4">4</span>
+                                    <span class="qty-num" data-for="coffee-5">5</span>
+                                </div>
+                                <label for="coffee-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);">
+                            <span class="product-emoji">âš¡</span>
+                        </div>
+                        <span class="product-tag new">New</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Energy Drink</h3>
+                        <p class="product-desc">Boost your energy</p>
+                        <p class="product-price">RS 220.00 <span class="price-unit">/ can</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="energy-qty" id="energy-0" value="0" checked>
+                                <input type="radio" name="energy-qty" id="energy-1" value="1">
+                                <input type="radio" name="energy-qty" id="energy-2" value="2">
+                                <input type="radio" name="energy-qty" id="energy-3" value="3">
+                                <input type="radio" name="energy-qty" id="energy-4" value="4">
+                                <input type="radio" name="energy-qty" id="energy-5" value="5">
+                                
+                                <label for="energy-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="energy-0">0</span>
+                                    <span class="qty-num" data-for="energy-1">1</span>
+                                    <span class="qty-num" data-for="energy-2">2</span>
+                                    <span class="qty-num" data-for="energy-3">3</span>
+                                    <span class="qty-num" data-for="energy-4">4</span>
+                                    <span class="qty-num" data-for="energy-5">5</span>
+                                </div>
+                                <label for="energy-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

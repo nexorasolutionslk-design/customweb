@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Products - Store Mart</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/product-page.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navdiv">
+             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a></div>
+             <input type="checkbox" id="ham-check">
+             <label for="ham-check" class="open-menu"><span></span></label>
+             <ul class="nav-bar">
+                <span class="menu">
+                <label for="ham-check" class="close-menu"></label>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a class="active" href="our_products.html">Our Products</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+                <div class="nav-icons">
+                    <a href="login.html" class="icon-link" title="Login">
+                        <span class="icon-login"></span>
+                    </a>
+                    <a href="register.html" class="icon-link" title="Register">
+                        <span class="icon-register">
+                            <span class="plus"></span>
+                        </span>
+                    </a>
+                    <a href="cart.html" class="icon-link" title="Cart">
+                        <span class="icon-cart">
+                            <span class="wheel-left"></span>
+                            <span class="wheel-right"></span>
+                        </span>
+                    </a>
+                </div>
+            </span>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <main class="product-main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="our_products.html">Products</a> / 
+                <span>Dairy Products</span>
+            </div>
+
+            <section class="category-hero">
+                <h1>Dairy Products</h1>
+                <p>Fresh, creamy, and nutritious dairy from trusted suppliers</p>
+            </section>
+
+            <div class="products-container">
+                
+                <!-- Product 1: Butter -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);">
+                            <span class="product-emoji">ðŸ§ˆ</span>
+                        </div>
+                        <span class="product-tag">Fresh</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Butter</h3>
+                        <p class="product-desc">Creamy salted & unsalted</p>
+                        <p class="product-price">RS 450.00 <span class="price-unit">/ 500g</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="butter-qty" id="butter-0" value="0" checked>
+                                <input type="radio" name="butter-qty" id="butter-1" value="1">
+                                <input type="radio" name="butter-qty" id="butter-2" value="2">
+                                <input type="radio" name="butter-qty" id="butter-3" value="3">
+                                <input type="radio" name="butter-qty" id="butter-4" value="4">
+                                <input type="radio" name="butter-qty" id="butter-5" value="5">
+                                
+                                <label for="butter-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="butter-0">0</span>
+                                    <span class="qty-num" data-for="butter-1">1</span>
+                                    <span class="qty-num" data-for="butter-2">2</span>
+                                    <span class="qty-num" data-for="butter-3">3</span>
+                                    <span class="qty-num" data-for="butter-4">4</span>
+                                    <span class="qty-num" data-for="butter-5">5</span>
+                                </div>
+                                <label for="butter-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Cheese -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+                            <span class="product-emoji">ðŸ§€</span>
+                        </div>
+                        <span class="product-tag new">Premium</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Cheese Selection</h3>
+                        <p class="product-desc">Cheddar, mozzarella & more</p>
+                        <p class="product-price">RS 650.00 <span class="price-unit">/ 400g</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="cheese-qty" id="cheese-0" value="0" checked>
+                                <input type="radio" name="cheese-qty" id="cheese-1" value="1">
+                                <input type="radio" name="cheese-qty" id="cheese-2" value="2">
+                                <input type="radio" name="cheese-qty" id="cheese-3" value="3">
+                                <input type="radio" name="cheese-qty" id="cheese-4" value="4">
+                                <input type="radio" name="cheese-qty" id="cheese-5" value="5">
+                                
+                                <label for="cheese-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="cheese-0">0</span>
+                                    <span class="qty-num" data-for="cheese-1">1</span>
+                                    <span class="qty-num" data-for="cheese-2">2</span>
+                                    <span class="qty-num" data-for="cheese-3">3</span>
+                                    <span class="qty-num" data-for="cheese-4">4</span>
+                                    <span class="qty-num" data-for="cheese-5">5</span>
+                                </div>
+                                <label for="cheese-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3: Yogurt -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);">
+                            <span class="product-emoji">ðŸ¥›</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Greek Yogurt</h3>
+                        <p class="product-desc">Creamy probiotic rich</p>
+                        <p class="product-price">RS 280.00 <span class="price-unit">/ 500g</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="yogurt-qty" id="yogurt-0" value="0" checked>
+                                <input type="radio" name="yogurt-qty" id="yogurt-1" value="1">
+                                <input type="radio" name="yogurt-qty" id="yogurt-2" value="2">
+                                <input type="radio" name="yogurt-qty" id="yogurt-3" value="3">
+                                <input type="radio" name="yogurt-qty" id="yogurt-4" value="4">
+                                <input type="radio" name="yogurt-qty" id="yogurt-5" value="5">
+                                
+                                <label for="yogurt-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="yogurt-0">0</span>
+                                    <span class="qty-num" data-for="yogurt-1">1</span>
+                                    <span class="qty-num" data-for="yogurt-2">2</span>
+                                    <span class="qty-num" data-for="yogurt-3">3</span>
+                                    <span class="qty-num" data-for="yogurt-4">4</span>
+                                    <span class="qty-num" data-for="yogurt-5">5</span>
+                                </div>
+                                <label for="yogurt-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4: Ice Cream -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);">
+                            <span class="product-emoji">ðŸ¨</span>
+                        </div>
+                        <span class="product-tag">Popular</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Premium Ice Cream</h3>
+                        <p class="product-desc">Multiple delicious flavors</p>
+                        <p class="product-price">RS 550.00 <span class="price-unit">/ 1L</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="icecream-qty" id="icecream-0" value="0" checked>
+                                <input type="radio" name="icecream-qty" id="icecream-1" value="1">
+                                <input type="radio" name="icecream-qty" id="icecream-2" value="2">
+                                <input type="radio" name="icecream-qty" id="icecream-3" value="3">
+                                <input type="radio" name="icecream-qty" id="icecream-4" value="4">
+                                <input type="radio" name="icecream-qty" id="icecream-5" value="5">
+                                
+                                <label for="icecream-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="icecream-0">0</span>
+                                    <span class="qty-num" data-for="icecream-1">1</span>
+                                    <span class="qty-num" data-for="icecream-2">2</span>
+                                    <span class="qty-num" data-for="icecream-3">3</span>
+                                    <span class="qty-num" data-for="icecream-4">4</span>
+                                    <span class="qty-num" data-for="icecream-5">5</span>
+                                </div>
+                                <label for="icecream-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5: Fresh Milk -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
+                            <span class="product-emoji">ðŸ¥¤</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Milk</h3>
+                        <p class="product-desc">Whole, skim & flavored</p>
+                        <p class="product-price">RS 320.00 <span class="price-unit">/ 1L</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="milk-qty" id="milk-0" value="0" checked>
+                                <input type="radio" name="milk-qty" id="milk-1" value="1">
+                                <input type="radio" name="milk-qty" id="milk-2" value="2">
+                                <input type="radio" name="milk-qty" id="milk-3" value="3">
+                                <input type="radio" name="milk-qty" id="milk-4" value="4">
+                                <input type="radio" name="milk-qty" id="milk-5" value="5">
+                                
+                                <label for="milk-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="milk-0">0</span>
+                                    <span class="qty-num" data-for="milk-1">1</span>
+                                    <span class="qty-num" data-for="milk-2">2</span>
+                                    <span class="qty-num" data-for="milk-3">3</span>
+                                    <span class="qty-num" data-for="milk-4">4</span>
+                                    <span class="qty-num" data-for="milk-5">5</span>
+                                </div>
+                                <label for="milk-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6: Plant-Based Milk -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);">
+                            <span class="product-emoji">ðŸŒ¿</span>
+                        </div>
+                        <span class="product-tag new">Vegan</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Plant-Based Milk</h3>
+                        <p class="product-desc">Almond, soy & oat options</p>
+                        <p class="product-price">RS 380.00 <span class="price-unit">/ 1L</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="plantmilk-qty" id="plantmilk-0" value="0" checked>
+                                <input type="radio" name="plantmilk-qty" id="plantmilk-1" value="1">
+                                <input type="radio" name="plantmilk-qty" id="plantmilk-2" value="2">
+                                <input type="radio" name="plantmilk-qty" id="plantmilk-3" value="3">
+                                <input type="radio" name="plantmilk-qty" id="plantmilk-4" value="4">
+                                <input type="radio" name="plantmilk-qty" id="plantmilk-5" value="5">
+                                
+                                <label for="plantmilk-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="plantmilk-0">0</span>
+                                    <span class="qty-num" data-for="plantmilk-1">1</span>
+                                    <span class="qty-num" data-for="plantmilk-2">2</span>
+                                    <span class="qty-num" data-for="plantmilk-3">3</span>
+                                    <span class="qty-num" data-for="plantmilk-4">4</span>
+                                    <span class="qty-num" data-for="plantmilk-5">5</span>
+                                </div>
+                                <label for="plantmilk-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Meats - Store Mart</title>
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/product-page.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a>
+                </div>
+                <ul class="nav-bar">
+                    <input type="checkbox" id="ham-check">
+                    <span class="menu">
+                        <label for="ham-check" class="close-menu">âœ•</label>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="our_products.html">Our Products</a></li>
+                        <li><a href="loyalty.html">Loyalty</a></li>
+                        <div class="nav-icons">
+                            <a href="login.html" class="icon-link" title="Login">
+                                <span class="icon-login"></span>
+                            </a>
+                            <a href="register.html" class="icon-link" title="Register">
+                                <span class="icon-register">
+                                    <span class="plus"></span>
+                                </span>
+                            </a>
+                            <a href="cart.html" class="icon-link" title="Cart">
+                                <span class="icon-cart">
+                                    <span class="wheel-left"></span>
+                                    <span class="wheel-right"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </span>
+                    <label for="ham-check" class="open-menu">â˜°</label>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="our_products.html">Products</a> / 
+                <span>Fresh Fruits</span>
+            </div>
+
+            <section class="category-hero">
+                <h1>Premium Meats</h1>
+                <p>Fresh, high-quality cuts from trusted suppliers</p>
+            </section>
+
+            <div class="products-container">
+                
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);">
+                            <span class="product-emoji">ðŸ¥©</span>
+                        </div>
+                        <span class="product-tag">Fresh</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Premium Beef Steak</h3>
+                        <p class="product-desc">Tender and juicy cuts</p>
+                        <p class="product-price">RS 1,200.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="beef-qty" id="beef-0" value="0" checked>
+                                <input type="radio" name="beef-qty" id="beef-1" value="1">
+                                <input type="radio" name="beef-qty" id="beef-2" value="2">
+                                <input type="radio" name="beef-qty" id="beef-3" value="3">
+                                <input type="radio" name="beef-qty" id="beef-4" value="4">
+                                <input type="radio" name="beef-qty" id="beef-5" value="5">
+                                
+                                <label for="beef-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="beef-0">0</span>
+                                    <span class="qty-num" data-for="beef-1">1</span>
+                                    <span class="qty-num" data-for="beef-2">2</span>
+                                    <span class="qty-num" data-for="beef-3">3</span>
+                                    <span class="qty-num" data-for="beef-4">4</span>
+                                    <span class="qty-num" data-for="beef-5">5</span>
+                                </div>
+                                <label for="beef-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);">
+                            <span class="product-emoji">ðŸ—</span>
+                        </div>
+                        <span class="product-tag new">Popular</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Chicken</h3>
+                        <p class="product-desc">Free-range quality</p>
+                        <p class="product-price">RS 650.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="chicken-qty" id="chicken-0" value="0" checked>
+                                <input type="radio" name="chicken-qty" id="chicken-1" value="1">
+                                <input type="radio" name="chicken-qty" id="chicken-2" value="2">
+                                <input type="radio" name="chicken-qty" id="chicken-3" value="3">
+                                <input type="radio" name="chicken-qty" id="chicken-4" value="4">
+                                <input type="radio" name="chicken-qty" id="chicken-5" value="5">
+                                
+                                <label for="chicken-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="chicken-0">0</span>
+                                    <span class="qty-num" data-for="chicken-1">1</span>
+                                    <span class="qty-num" data-for="chicken-2">2</span>
+                                    <span class="qty-num" data-for="chicken-3">3</span>
+                                    <span class="qty-num" data-for="chicken-4">4</span>
+                                    <span class="qty-num" data-for="chicken-5">5</span>
+                                </div>
+                                <label for="chicken-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);">
+                            <span class="product-emoji">ðŸ¥“</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Pork Bacon</h3>
+                        <p class="product-desc">Smoked to perfection</p>
+                        <p class="product-price">RS 850.00 <span class="price-unit">/ 500g</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="bacon-qty" id="bacon-0" value="0" checked>
+                                <input type="radio" name="bacon-qty" id="bacon-1" value="1">
+                                <input type="radio" name="bacon-qty" id="bacon-2" value="2">
+                                <input type="radio" name="bacon-qty" id="bacon-3" value="3">
+                                <input type="radio" name="bacon-qty" id="bacon-4" value="4">
+                                <input type="radio" name="bacon-qty" id="bacon-5" value="5">
+                                
+                                <label for="bacon-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="bacon-0">0</span>
+                                    <span class="qty-num" data-for="bacon-1">1</span>
+                                    <span class="qty-num" data-for="bacon-2">2</span>
+                                    <span class="qty-num" data-for="bacon-3">3</span>
+                                    <span class="qty-num" data-for="bacon-4">4</span>
+                                    <span class="qty-num" data-for="bacon-5">5</span>
+                                </div>
+                                <label for="bacon-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
+                            <span class="product-emoji">ðŸ–</span>
+                        </div>
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Lamb Chops</h3>
+                        <p class="product-desc">Premium quality cuts</p>
+                        <p class="product-price">RS 1,500.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="lamb-qty" id="lamb-0" value="0" checked>
+                                <input type="radio" name="lamb-qty" id="lamb-1" value="1">
+                                <input type="radio" name="lamb-qty" id="lamb-2" value="2">
+                                <input type="radio" name="lamb-qty" id="lamb-3" value="3">
+                                <input type="radio" name="lamb-qty" id="lamb-4" value="4">
+                                <input type="radio" name="lamb-qty" id="lamb-5" value="5">
+                                
+                                <label for="lamb-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="lamb-0">0</span>
+                                    <span class="qty-num" data-for="lamb-1">1</span>
+                                    <span class="qty-num" data-for="lamb-2">2</span>
+                                    <span class="qty-num" data-for="lamb-3">3</span>
+                                    <span class="qty-num" data-for="lamb-4">4</span>
+                                    <span class="qty-num" data-for="lamb-5">5</span>
+                                </div>
+                                <label for="lamb-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);">
+                            <span class="product-emoji">ðŸŒ­</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Sausages</h3>
+                        <p class="product-desc">Assorted varieties</p>
+                        <p class="product-price">RS 450.00 <span class="price-unit">/ pack</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="sausage-qty" id="sausage-0" value="0" checked>
+                                <input type="radio" name="sausage-qty" id="sausage-1" value="1">
+                                <input type="radio" name="sausage-qty" id="sausage-2" value="2">
+                                <input type="radio" name="sausage-qty" id="sausage-3" value="3">
+                                <input type="radio" name="sausage-qty" id="sausage-4" value="4">
+                                <input type="radio" name="sausage-qty" id="sausage-5" value="5">
+                                
+                                <label for="sausage-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="sausage-0">0</span>
+                                    <span class="qty-num" data-for="sausage-1">1</span>
+                                    <span class="qty-num" data-for="sausage-2">2</span>
+                                    <span class="qty-num" data-for="sausage-3">3</span>
+                                    <span class="qty-num" data-for="sausage-4">4</span>
+                                    <span class="qty-num" data-for="sausage-5">5</span>
+                                </div>
+                                <label for="sausage-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);">
+                            <span class="product-emoji">ðŸ¦</span>
+                        </div>
+                        <span class="product-tag new">Fresh</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Prawns</h3>
+                        <p class="product-desc">Ocean fresh seafood</p>
+                        <p class="product-price">RS 980.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="prawn-qty" id="prawn-0" value="0" checked>
+                                <input type="radio" name="prawn-qty" id="prawn-1" value="1">
+                                <input type="radio" name="prawn-qty" id="prawn-2" value="2">
+                                <input type="radio" name="prawn-qty" id="prawn-3" value="3">
+                                <input type="radio" name="prawn-qty" id="prawn-4" value="4">
+                                <input type="radio" name="prawn-qty" id="prawn-5" value="5">
+                                
+                                <label for="prawn-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="prawn-0">0</span>
+                                    <span class="qty-num" data-for="prawn-1">1</span>
+                                    <span class="qty-num" data-for="prawn-2">2</span>
+                                    <span class="qty-num" data-for="prawn-3">3</span>
+                                    <span class="qty-num" data-for="prawn-4">4</span>
+                                    <span class="qty-num" data-for="prawn-5">5</span>
+                                </div>
+                                <label for="prawn-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

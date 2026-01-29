@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Online/Loyalty registration</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/loyalty_modern.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navdiv">
+             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a></div>
+             <input type="checkbox" id="ham-check">
+             <label for="ham-check" class="open-menu"><span></span></label>
+             <ul class="nav-bar">
+                <span class="menu">
+                <label for="ham-check" class="close-menu"></label>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="our_products.html">Our Products</a></li>
+                <li><a class="active" href="loyalty.html">Loyalty</a></li>
+                <div class="nav-icons">
+                    <a href="login.html" class="icon-link" title="Login">
+                        <span class="icon-login"></span>
+                    </a>
+                    <a href="register.html" class="icon-link" title="Register">
+                        <span class="icon-register">
+                            <span class="plus"></span>
+                        </span>
+                    </a>
+                    <a href="cart.html" class="icon-link" title="Cart">
+                        <span class="icon-cart">
+                            <span class="wheel-left"></span>
+                            <span class="wheel-right"></span>
+                        </span>
+                    </a>
+                </div>
+            </span>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Loyalty Hero Section -->
+    <section class="loyalty-hero">
+        <div class="container">
+            <h1 class="page-title">Loyalty Program</h1>
+            <p class="page-subtitle">Join our rewards program and enjoy exclusive benefits</p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Member Benefits</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">ðŸŽ</div>
+                    <h3>Exclusive Deals</h3>
+                    <p>Get access to members-only discounts and special offers</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">â­</div>
+                    <h3>Earn Points</h3>
+                    <p>Collect points on every purchase and redeem for rewards</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">ðŸš€</div>
+                    <h3>Early Access</h3>
+                    <p>Be the first to know about new products and promotions</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">ðŸŽ‚</div>
+                    <h3>Birthday Rewards</h3>
+                    <p>Receive special gifts and discounts on your birthday</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="registration-section">
+        <div class="container">
+            <div class="registration-card">
+                <h2>Join Today - It's Free!</h2>
+                <p class="form-intro">Fill out the form below to start earning rewards</p>
+                
+                <form class="loyalty-form">
+                    <div class="form-section">
+                        <h3 class="form-section-title">Personal Information</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" required placeholder="+94 77 123 4567">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="birthday">Date of Birth</label>
+                                <input type="date" id="birthday">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="form-section-title">Address Details</h3>
+                        <div class="form-grid">
+                            <div class="form-group full-width">
+                                <label for="address">Street Address *</label>
+                                <input type="text" id="address" required placeholder="123 Main Street">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="city">City *</label>
+                                <input type="text" id="city" required placeholder="Colombo">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="postal">Postal Code *</label>
+                                <input type="text" id="postal" required placeholder="00100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="form-section-title">Account Setup</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="username">Username *</label>
+                                <input type="text" id="username" required placeholder="johndoe123">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="password">Password *</label>
+                                <input type="password" id="password" required placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="confirm">Confirm Password *</label>
+                                <input type="password" id="confirm" required placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="form-section-title">Preferences</h3>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="newsletter" checked>
+                            <label for="newsletter">I want to receive promotional emails and newsletters</label>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="sms">
+                            <label for="sms">Send me SMS updates about special offers</label>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="terms" required>
+                            <label for="terms">I agree to the Terms & Conditions and Privacy Policy *</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large btn-full">Join Loyalty Program</button>
+                    
+                    <p class="form-note">Already a member? <a href="login.html">Sign in here</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div style="display: none;">
+        <fieldset>
+            <legend><h3>Additional Information:</h3></legend>
+            <div> <label for="date">Date of Birth:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <h4>Gender</h4>
+            <div>
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" id="male" required>
+            </div>
+            <div>
+                <label for="female">Female:</label>
+                <input type="radio" name="gender" id="female" required>
+            </div>
+            <div> <label for="aboutus">How did you hear about us?:</label>
+                <select name="aboutus" id="aboutus">
+                    <option value="None">None</option>
+                    <option value="word of mouth">Word of mouth</option>
+                    <option value="advertising">Advertising</option>
+                    <option value="social media">Social media</option>
+                    <option value="online search">Online search</option>
+                    <option value="events and ponsorships">Events and Sponsorships</option>
+                </select>
+            </div>
+            <div> <label for="intrest">Any intrests:</label>
+                <textarea id="intrest" name="intrest" cols="40" rows="6"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><h4>Loyalty scheme selection</h4></legend>
+            <div> <label for="loyalty scheme">Points-Based Programs:</label>
+                <input type="radio" id="points based" name="loyalty scheme selection" required>
+            </div>
+                <p>Customers earn points for every purchase they make, and these points can be redeemed for rewards such as discounts, free products, or exclusive experiences. Points can often be accumulated over time and used towards larger rewards.</p>
+    
+            <div> <label for="loyalty scheme">Cashback Programs:</label>
+                <input type="radio" id="cash based" name="loyalty scheme selection" required>
+            </div>
+                <p>Customers receive a percentage of their purchase amount back as cash or credit towards future purchases. Cashback programs are straightforward and provide immediate rewards to customers.</p>
+                
+            <div> <label for="loyalty scheme">Discount Programs:</label>
+                <input type="radio" id="discount based" name="loyalty scheme selection" required>
+            </div>
+                <p>Customers receive discounts or special pricing on certain products or services as a reward for their loyalty. This could include regular discounts, special promotions, or member-only pricing.</p>
+                
+            <div> <label for="loyalty scheme">Partner Programs:</label>
+                <input type="radio" id="partner based" name="loyalty scheme selection" required>
+            </div>
+                <p>Loyalty programs that partner with other businesses or brands to offer joint rewards or benefits. Customers can earn rewards or discounts not only for purchases with the primary<br>business but also with partner businesses, expanding the opportunities for earning rewards.</p>
+            </fieldset>   
+            <!-- <fieldset> -->
+            <legend><h4>Terms & Conditions</h4></legend>
+            <div> <label for="l&s">Read & accept:</label>
+                <p>Eligibility: Participation in the loyalty program ("Program") is open to individuals aged 18 and above who reside in the United States.
+
+                    Membership: Membership is free and requires registration via our website or mobile app.
+                    
+                    Earning Points: Members earn points for every dollar spent on eligible purchases at participating locations.
+                    
+                    Points Redemption: Points can be redeemed for discounts on future purchases, exclusive rewards, or other benefits as determined by the Program.
+                    
+                    Expiration: Points expire after 12 months of inactivity in the Program.
+                    
+                    Account Management: Members can manage their accounts, track points balance, and update personal information through the Program website or app.
+                    
+                    Privacy: We are committed to protecting member privacy and will not share personal information with third parties without consent.
+                    
+                    Changes to Terms: We reserve the right to modify or terminate the Program and its terms and conditions at any time without prior notice.
+                    
+                    Termination: Membership may be terminated for violation of Program rules or fraudulent activity.
+                    
+                    Governing Law: These terms and conditions are governed by the laws of the United States.
+                    
+                    By participating in the Program, members agree to abide by these terms and conditions.</p>
+                <input type="checkbox" id="l&s" name="l$s" required>
+            </div>
+        <!-- </fieldset> -->
+
+
+            <button type="submit">Submit</button>
+    </form>
+    </div>
+</div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

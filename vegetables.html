@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Vegetables - Store Mart</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/product-page.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navdiv">
+             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a></div>
+             <input type="checkbox" id="ham-check">
+             <label for="ham-check" class="open-menu"><span></span></label>
+             <ul class="nav-bar">
+                <span class="menu">
+                <label for="ham-check" class="close-menu"></label>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a class="active" href="our_products.html">Our Products</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+                <div class="nav-icons">
+                    <a href="login.html" class="icon-link" title="Login">
+                        <span class="icon-login"></span>
+                    </a>
+                    <a href="register.html" class="icon-link" title="Register">
+                        <span class="icon-register">
+                            <span class="plus"></span>
+                        </span>
+                    </a>
+                    <a href="cart.html" class="icon-link" title="Cart">
+                        <span class="icon-cart">
+                            <span class="wheel-left"></span>
+                            <span class="wheel-right"></span>
+                        </span>
+                    </a>
+                </div>
+            </span>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <main class="product-main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="our_products.html">Products</a> / 
+                <span>Fresh Vegetables</span>
+            </div>
+
+            <section class="category-hero">
+                <h1>Fresh Vegetables</h1>
+                <p>Organic farm-fresh vegetables delivered daily from local growers</p>
+            </section>
+
+            <div class="products-container">
+                
+                <!-- Product 1: Leafy Greens -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);">
+                            <span class="product-emoji">ðŸ¥¬</span>
+                        </div>
+                        <span class="product-tag">Fresh</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Leafy Greens</h3>
+                        <p class="product-desc">Lettuce, spinach & kale</p>
+                        <p class="product-price">RS 120.00 <span class="price-unit">/ bunch</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="greens-qty" id="greens-0" value="0" checked>
+                                <input type="radio" name="greens-qty" id="greens-1" value="1">
+                                <input type="radio" name="greens-qty" id="greens-2" value="2">
+                                <input type="radio" name="greens-qty" id="greens-3" value="3">
+                                <input type="radio" name="greens-qty" id="greens-4" value="4">
+                                <input type="radio" name="greens-qty" id="greens-5" value="5">
+                                
+                                <label for="greens-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="greens-0">0</span>
+                                    <span class="qty-num" data-for="greens-1">1</span>
+                                    <span class="qty-num" data-for="greens-2">2</span>
+                                    <span class="qty-num" data-for="greens-3">3</span>
+                                    <span class="qty-num" data-for="greens-4">4</span>
+                                    <span class="qty-num" data-for="greens-5">5</span>
+                                </div>
+                                <label for="greens-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Broccoli -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #dcedc8 0%, #aed581 100%);">
+                            <span class="product-emoji">ðŸ¥¦</span>
+                        </div>
+                        <span class="product-tag new">Organic</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Broccoli</h3>
+                        <p class="product-desc">Fresh organic broccoli</p>
+                        <p class="product-price">RS 180.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="broccoli-qty" id="broccoli-0" value="0" checked>
+                                <input type="radio" name="broccoli-qty" id="broccoli-1" value="1">
+                                <input type="radio" name="broccoli-qty" id="broccoli-2" value="2">
+                                <input type="radio" name="broccoli-qty" id="broccoli-3" value="3">
+                                <input type="radio" name="broccoli-qty" id="broccoli-4" value="4">
+                                <input type="radio" name="broccoli-qty" id="broccoli-5" value="5">
+                                
+                                <label for="broccoli-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="broccoli-0">0</span>
+                                    <span class="qty-num" data-for="broccoli-1">1</span>
+                                    <span class="qty-num" data-for="broccoli-2">2</span>
+                                    <span class="qty-num" data-for="broccoli-3">3</span>
+                                    <span class="qty-num" data-for="broccoli-4">4</span>
+                                    <span class="qty-num" data-for="broccoli-5">5</span>
+                                </div>
+                                <label for="broccoli-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3: Carrots -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff3e0 0%, #ffcc80 100%);">
+                            <span class="product-emoji">ðŸ¥•</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Carrots</h3>
+                        <p class="product-desc">Sweet crunchy carrots</p>
+                        <p class="product-price">RS 90.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="carrot-qty" id="carrot-0" value="0" checked>
+                                <input type="radio" name="carrot-qty" id="carrot-1" value="1">
+                                <input type="radio" name="carrot-qty" id="carrot-2" value="2">
+                                <input type="radio" name="carrot-qty" id="carrot-3" value="3">
+                                <input type="radio" name="carrot-qty" id="carrot-4" value="4">
+                                <input type="radio" name="carrot-qty" id="carrot-5" value="5">
+                                
+                                <label for="carrot-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="carrot-0">0</span>
+                                    <span class="qty-num" data-for="carrot-1">1</span>
+                                    <span class="qty-num" data-for="carrot-2">2</span>
+                                    <span class="qty-num" data-for="carrot-3">3</span>
+                                    <span class="qty-num" data-for="carrot-4">4</span>
+                                    <span class="qty-num" data-for="carrot-5">5</span>
+                                </div>
+                                <label for="carrot-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4: Tomatoes -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);">
+                            <span class="product-emoji">ðŸ…</span>
+                        </div>
+                        <span class="product-tag">Popular</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Ripe Tomatoes</h3>
+                        <p class="product-desc">Juicy vine-ripened</p>
+                        <p class="product-price">RS 110.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="tomato-qty" id="tomato-0" value="0" checked>
+                                <input type="radio" name="tomato-qty" id="tomato-1" value="1">
+                                <input type="radio" name="tomato-qty" id="tomato-2" value="2">
+                                <input type="radio" name="tomato-qty" id="tomato-3" value="3">
+                                <input type="radio" name="tomato-qty" id="tomato-4" value="4">
+                                <input type="radio" name="tomato-qty" id="tomato-5" value="5">
+                                
+                                <label for="tomato-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="tomato-0">0</span>
+                                    <span class="qty-num" data-for="tomato-1">1</span>
+                                    <span class="qty-num" data-for="tomato-2">2</span>
+                                    <span class="qty-num" data-for="tomato-3">3</span>
+                                    <span class="qty-num" data-for="tomato-4">4</span>
+                                    <span class="qty-num" data-for="tomato-5">5</span>
+                                </div>
+                                <label for="tomato-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5: Onions -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
+                            <span class="product-emoji">ðŸ§…</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Fresh Onions</h3>
+                        <p class="product-desc">Red & yellow onions</p>
+                        <p class="product-price">RS 75.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="onion-qty" id="onion-0" value="0" checked>
+                                <input type="radio" name="onion-qty" id="onion-1" value="1">
+                                <input type="radio" name="onion-qty" id="onion-2" value="2">
+                                <input type="radio" name="onion-qty" id="onion-3" value="3">
+                                <input type="radio" name="onion-qty" id="onion-4" value="4">
+                                <input type="radio" name="onion-qty" id="onion-5" value="5">
+                                
+                                <label for="onion-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="onion-0">0</span>
+                                    <span class="qty-num" data-for="onion-1">1</span>
+                                    <span class="qty-num" data-for="onion-2">2</span>
+                                    <span class="qty-num" data-for="onion-3">3</span>
+                                    <span class="qty-num" data-for="onion-4">4</span>
+                                    <span class="qty-num" data-for="onion-5">5</span>
+                                </div>
+                                <label for="onion-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6: Potatoes -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #efebe9 0%, #d7ccc8 100%);">
+                            <span class="product-emoji">ðŸ¥”</span>
+                        </div>
+                        <span class="product-tag new">Local</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Potatoes</h3>
+                        <p class="product-desc">Multiple varieties available</p>
+                        <p class="product-price">RS 85.00 <span class="price-unit">/ kg</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="potato-qty" id="potato-0" value="0" checked>
+                                <input type="radio" name="potato-qty" id="potato-1" value="1">
+                                <input type="radio" name="potato-qty" id="potato-2" value="2">
+                                <input type="radio" name="potato-qty" id="potato-3" value="3">
+                                <input type="radio" name="potato-qty" id="potato-4" value="4">
+                                <input type="radio" name="potato-qty" id="potato-5" value="5">
+                                
+                                <label for="potato-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="potato-0">0</span>
+                                    <span class="qty-num" data-for="potato-1">1</span>
+                                    <span class="qty-num" data-for="potato-2">2</span>
+                                    <span class="qty-num" data-for="potato-3">3</span>
+                                    <span class="qty-num" data-for="potato-4">4</span>
+                                    <span class="qty-num" data-for="potato-5">5</span>
+                                </div>
+                                <label for="potato-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+     
+</body>
+</html>

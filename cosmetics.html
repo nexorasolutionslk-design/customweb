@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty & Cosmetics - Store Mart</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="x-icon" href="images/logo2.png">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/product-page.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navdiv">
+             <div class="logo"><a href="index.html"><img src="images/logo.png" alt="Store Mart Logo"></a></div>
+             <input type="checkbox" id="ham-check">
+             <label for="ham-check" class="open-menu"><span></span></label>
+             <ul class="nav-bar">
+                <span class="menu">
+                <label for="ham-check" class="close-menu"></label>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a class="active" href="our_products.html">Our Products</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+                <div class="nav-icons">
+                    <a href="login.html" class="icon-link" title="Login">
+                        <span class="icon-login"></span>
+                    </a>
+                    <a href="register.html" class="icon-link" title="Register">
+                        <span class="icon-register">
+                            <span class="plus"></span>
+                        </span>
+                    </a>
+                    <a href="cart.html" class="icon-link" title="Cart">
+                        <span class="icon-cart">
+                            <span class="wheel-left"></span>
+                            <span class="wheel-right"></span>
+                        </span>
+                    </a>
+                </div>
+            </span>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <main class="product-main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="our_products.html">Products</a> / 
+                <span>Beauty & Cosmetics</span>
+            </div>
+
+            <section class="category-hero">
+                <h1>Beauty & Cosmetics</h1>
+                <p>Premium beauty products for skincare, makeup, and personal care</p>
+            </section>
+
+            <div class="products-container">
+                
+                <!-- Product 1: Lipstick -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);">
+                            <span class="product-emoji">ðŸ’„</span>
+                        </div>
+                        <span class="product-tag">Popular</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Premium Lipstick</h3>
+                        <p class="product-desc">Long-lasting matte finish</p>
+                        <p class="product-price">RS 850.00 <span class="price-unit">/ unit</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="lipstick-qty" id="lipstick-0" value="0" checked>
+                                <input type="radio" name="lipstick-qty" id="lipstick-1" value="1">
+                                <input type="radio" name="lipstick-qty" id="lipstick-2" value="2">
+                                <input type="radio" name="lipstick-qty" id="lipstick-3" value="3">
+                                <input type="radio" name="lipstick-qty" id="lipstick-4" value="4">
+                                <input type="radio" name="lipstick-qty" id="lipstick-5" value="5">
+                                
+                                <label for="lipstick-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="lipstick-0">0</span>
+                                    <span class="qty-num" data-for="lipstick-1">1</span>
+                                    <span class="qty-num" data-for="lipstick-2">2</span>
+                                    <span class="qty-num" data-for="lipstick-3">3</span>
+                                    <span class="qty-num" data-for="lipstick-4">4</span>
+                                    <span class="qty-num" data-for="lipstick-5">5</span>
+                                </div>
+                                <label for="lipstick-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2: Moisturizer -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%);">
+                            <span class="product-emoji">ðŸ§´</span>
+                        </div>
+                        <span class="product-tag new">New</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Face Moisturizer</h3>
+                        <p class="product-desc">SPF 30 protection included</p>
+                        <p class="product-price">RS 1,250.00 <span class="price-unit">/ 50ml</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="moisturizer-qty" id="moisturizer-0" value="0" checked>
+                                <input type="radio" name="moisturizer-qty" id="moisturizer-1" value="1">
+                                <input type="radio" name="moisturizer-qty" id="moisturizer-2" value="2">
+                                <input type="radio" name="moisturizer-qty" id="moisturizer-3" value="3">
+                                <input type="radio" name="moisturizer-qty" id="moisturizer-4" value="4">
+                                <input type="radio" name="moisturizer-qty" id="moisturizer-5" value="5">
+                                
+                                <label for="moisturizer-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="moisturizer-0">0</span>
+                                    <span class="qty-num" data-for="moisturizer-1">1</span>
+                                    <span class="qty-num" data-for="moisturizer-2">2</span>
+                                    <span class="qty-num" data-for="moisturizer-3">3</span>
+                                    <span class="qty-num" data-for="moisturizer-4">4</span>
+                                    <span class="qty-num" data-for="moisturizer-5">5</span>
+                                </div>
+                                <label for="moisturizer-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3: Eye Cream -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
+                            <span class="product-emoji">ðŸ‘ï¸</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Eye Cream</h3>
+                        <p class="product-desc">Anti-aging formula</p>
+                        <p class="product-price">RS 980.00 <span class="price-unit">/ 15ml</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="eyecream-qty" id="eyecream-0" value="0" checked>
+                                <input type="radio" name="eyecream-qty" id="eyecream-1" value="1">
+                                <input type="radio" name="eyecream-qty" id="eyecream-2" value="2">
+                                <input type="radio" name="eyecream-qty" id="eyecream-3" value="3">
+                                <input type="radio" name="eyecream-qty" id="eyecream-4" value="4">
+                                <input type="radio" name="eyecream-qty" id="eyecream-5" value="5">
+                                
+                                <label for="eyecream-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="eyecream-0">0</span>
+                                    <span class="qty-num" data-for="eyecream-1">1</span>
+                                    <span class="qty-num" data-for="eyecream-2">2</span>
+                                    <span class="qty-num" data-for="eyecream-3">3</span>
+                                    <span class="qty-num" data-for="eyecream-4">4</span>
+                                    <span class="qty-num" data-for="eyecream-5">5</span>
+                                </div>
+                                <label for="eyecream-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4: Foundation -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);">
+                            <span class="product-emoji">âœ¨</span>
+                        </div>
+                        <span class="product-tag">Premium</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Liquid Foundation</h3>
+                        <p class="product-desc">All skin tones available</p>
+                        <p class="product-price">RS 1,450.00 <span class="price-unit">/ 30ml</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="foundation-qty" id="foundation-0" value="0" checked>
+                                <input type="radio" name="foundation-qty" id="foundation-1" value="1">
+                                <input type="radio" name="foundation-qty" id="foundation-2" value="2">
+                                <input type="radio" name="foundation-qty" id="foundation-3" value="3">
+                                <input type="radio" name="foundation-qty" id="foundation-4" value="4">
+                                <input type="radio" name="foundation-qty" id="foundation-5" value="5">
+                                
+                                <label for="foundation-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="foundation-0">0</span>
+                                    <span class="qty-num" data-for="foundation-1">1</span>
+                                    <span class="qty-num" data-for="foundation-2">2</span>
+                                    <span class="qty-num" data-for="foundation-3">3</span>
+                                    <span class="qty-num" data-for="foundation-4">4</span>
+                                    <span class="qty-num" data-for="foundation-5">5</span>
+                                </div>
+                                <label for="foundation-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5: Mascara -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);">
+                            <span class="product-emoji">ðŸ‘€</span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Volumizing Mascara</h3>
+                        <p class="product-desc">Waterproof formula</p>
+                        <p class="product-price">RS 720.00 <span class="price-unit">/ unit</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="mascara-qty" id="mascara-0" value="0" checked>
+                                <input type="radio" name="mascara-qty" id="mascara-1" value="1">
+                                <input type="radio" name="mascara-qty" id="mascara-2" value="2">
+                                <input type="radio" name="mascara-qty" id="mascara-3" value="3">
+                                <input type="radio" name="mascara-qty" id="mascara-4" value="4">
+                                <input type="radio" name="mascara-qty" id="mascara-5" value="5">
+                                
+                                <label for="mascara-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="mascara-0">0</span>
+                                    <span class="qty-num" data-for="mascara-1">1</span>
+                                    <span class="qty-num" data-for="mascara-2">2</span>
+                                    <span class="qty-num" data-for="mascara-3">3</span>
+                                    <span class="qty-num" data-for="mascara-4">4</span>
+                                    <span class="qty-num" data-for="mascara-5">5</span>
+                                </div>
+                                <label for="mascara-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6: Face Cleanser -->
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <div class="product-image" style="background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);">
+                            <span class="product-emoji">ðŸ§¼</span>
+                        </div>
+                        <span class="product-tag new">Organic</span>
+                    </div>
+                    
+                    <div class="product-info">
+                        <h3 class="product-name">Face Cleanser</h3>
+                        <p class="product-desc">Gentle daily cleanser</p>
+                        <p class="product-price">RS 650.00 <span class="price-unit">/ 150ml</span></p>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <input type="radio" name="cleanser-qty" id="cleanser-0" value="0" checked>
+                                <input type="radio" name="cleanser-qty" id="cleanser-1" value="1">
+                                <input type="radio" name="cleanser-qty" id="cleanser-2" value="2">
+                                <input type="radio" name="cleanser-qty" id="cleanser-3" value="3">
+                                <input type="radio" name="cleanser-qty" id="cleanser-4" value="4">
+                                <input type="radio" name="cleanser-qty" id="cleanser-5" value="5">
+                                
+                                <label for="cleanser-0" class="qty-btn minus">âˆ’</label>
+                                <div class="qty-value">
+                                    <span class="qty-num" data-for="cleanser-0">0</span>
+                                    <span class="qty-num" data-for="cleanser-1">1</span>
+                                    <span class="qty-num" data-for="cleanser-2">2</span>
+                                    <span class="qty-num" data-for="cleanser-3">3</span>
+                                    <span class="qty-num" data-for="cleanser-4">4</span>
+                                    <span class="qty-num" data-for="cleanser-5">5</span>
+                                </div>
+                                <label for="cleanser-5" class="qty-btn plus">+</label>
+                            </div>
+                            
+                            <a href="cart.html" class="btn-add-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="index.html">Our Services</a></li>
+                        <li><a href="loyalty.html">Loyalty Program</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="dairy_products.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="cosmetics.html">Cosmetics</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Store Mart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+                  
+</body>
+</html>
